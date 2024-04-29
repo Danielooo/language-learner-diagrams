@@ -8,6 +8,7 @@ classDiagram
         +Answer correctAnswer
     }
     class Answer {
+        +List possibleAnswers
         +String response
     }
     class FeedbackOnAnswer {
