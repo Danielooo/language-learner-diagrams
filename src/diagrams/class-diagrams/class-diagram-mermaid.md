@@ -4,6 +4,7 @@ classDiagram
         +List<Exercise> exercises
     }
     class Exercise {
+        +String excerciseCategory
         +String question
         +Answer correctAnswer
     }
